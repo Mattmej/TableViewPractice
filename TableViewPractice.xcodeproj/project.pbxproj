@@ -14,6 +14,7 @@
 		C9EAC9AD21B59402003A6273 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9EAC9AB21B59402003A6273 /* LaunchScreen.storyboard */; };
 		C9EAC9B821B59402003A6273 /* TableViewPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EAC9B721B59402003A6273 /* TableViewPracticeTests.swift */; };
 		C9EAC9C321B59402003A6273 /* TableViewPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EAC9C221B59402003A6273 /* TableViewPracticeUITests.swift */; };
+		C9EAC9D321B59D7B003A6273 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EAC9D221B59D7B003A6273 /* Pokemon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C9EAC9BE21B59402003A6273 /* TableViewPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9EAC9C221B59402003A6273 /* TableViewPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewPracticeUITests.swift; sourceTree = "<group>"; };
 		C9EAC9C421B59402003A6273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9EAC9D221B59D7B003A6273 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,8 @@
 		C9EAC9A121B59401003A6273 /* TableViewPractice */ = {
 			isa = PBXGroup;
 			children = (
+				C9EAC9D121B59D6C003A6273 /* Cells */,
+				C9EAC9D021B59D60003A6273 /* Models */,
 				C9EAC9A221B59401003A6273 /* AppDelegate.swift */,
 				C9EAC9A421B59401003A6273 /* ViewController.swift */,
 				C9EAC9A621B59401003A6273 /* Main.storyboard */,
@@ -123,6 +127,21 @@
 				C9EAC9C421B59402003A6273 /* Info.plist */,
 			);
 			path = TableViewPracticeUITests;
+			sourceTree = "<group>";
+		};
+		C9EAC9D021B59D60003A6273 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C9EAC9D221B59D7B003A6273 /* Pokemon.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C9EAC9D121B59D6C003A6273 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +277,7 @@
 			files = (
 				C9EAC9A521B59401003A6273 /* ViewController.swift in Sources */,
 				C9EAC9A321B59401003A6273 /* AppDelegate.swift in Sources */,
+				C9EAC9D321B59D7B003A6273 /* Pokemon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
